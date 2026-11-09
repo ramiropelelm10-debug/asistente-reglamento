@@ -1,0 +1,5 @@
+# Archivos de la base de datos y binarios: git no debe tocarlos
+*.sqlite3 binary
+*.bin binary
+*.pdf binary
+*.png binary

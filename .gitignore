@@ -1,0 +1,16 @@
+# Entorno de Python y archivos temporales
+.venv/
+__pycache__/
+
+# La llave de Gemini: NUNCA se sube (en la nube va en "Secrets")
+.env
+.streamlit/secrets.toml
+
+# Contador de consultas del día (se crea solo)
+uso_gemini.json
+
+# Copias viejas y configuración local de herramientas
+copia_vieja/
+.claude/
+
+# OJO: chroma_db/ SÍ se sube, porque es la memoria del asistente con el reglamento

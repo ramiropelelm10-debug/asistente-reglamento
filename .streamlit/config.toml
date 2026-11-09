@@ -1,0 +1,18 @@
+# Tema claro igual al diseño de estilos.py: así no aparece un destello oscuro al abrir la página
+[theme]
+base = "light"
+primaryColor = "#F28C28"
+backgroundColor = "#F4F7FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#14305C"
+font = "sans-serif"
+
+# La barra lateral sigue azul marino con letras blancas
+[theme.sidebar]
+backgroundColor = "#0B2A5B"
+secondaryBackgroundColor = "#13305C"
+textColor = "#FFFFFF"
+
+# Oculta Deploy y el menú de tres puntos desde que empieza a cargar la página
+[client]
+toolbarMode = "minimal"
